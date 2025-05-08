@@ -4,7 +4,7 @@ import { PrismaClient } from '@prisma/client';
 import { PrismaNeon } from '@prisma/adapter-neon';
 import { neonConfig } from '@neondatabase/serverless';
 import ws from 'ws';
-import { Product } from '@/lib/generated/prisma';
+import { Product } from '@prisma/client';
 
 // Neon を WebSocket 経由で使う設定（必要な場合）
 neonConfig.webSocketConstructor = ws;
