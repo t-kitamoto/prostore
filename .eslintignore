@@ -1,0 +1,3 @@
+lib/generated/
+lib/generated/prisma/wasm.js
+lib/generated/prisma/*
