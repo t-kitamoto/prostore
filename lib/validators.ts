@@ -98,7 +98,7 @@ export const insertOrderSchema = z.object({
   shippingAddress: shippingAddressScheme,
 });
 
-// Sxheme for inserting an order item
+// Scheme for inserting an order item
 export const insertOrderItemSchema = z.object({
   productId: z.string(),
   slug: z.string(),
