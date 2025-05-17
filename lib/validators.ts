@@ -23,7 +23,7 @@ export const insertProductSchema = z.object({
   price: currency,
 });
 
-// Scheme for updating products
+// Schema for updating products
 export const updateProductSchema = insertProductSchema.extend({
   id: z.string().min(1, 'Id is required'),
 });
@@ -69,7 +69,7 @@ export const insertCartSchema = z.object({
   userId: z.string().optional().nullable(),
 });
 
-// Scheme for the shipping address
+// Schema for the shipping address
 export const shippingAddressScheme = z.object({
   fullName: z.string().min(3, 'Name must be at least 3 characters'),
   streetAddress: z.string().min(3, 'Address must be at least 3 characters'),
@@ -80,7 +80,7 @@ export const shippingAddressScheme = z.object({
   lng: z.number().optional(),
 });
 
-// Scheme for payment method
+// Schema for payment method
 export const paymentMethodSchema = z
   .object({
     type: z.string().min(1, 'Payment method is required'),
@@ -90,7 +90,7 @@ export const paymentMethodSchema = z
     message: 'Invalid payment method',
   });
 
-// Scheme for inserting order
+// Schema for inserting order
 export const insertOrderSchema = z.object({
   userId: z.string().min(1, 'User is required'),
   itemsPrice: currency,
@@ -103,7 +103,7 @@ export const insertOrderSchema = z.object({
   shippingAddress: shippingAddressScheme,
 });
 
-// Scheme for inserting an order item
+// Schema for inserting an order item
 export const insertOrderItemSchema = z.object({
   productId: z.string(),
   slug: z.string(),
@@ -113,7 +113,7 @@ export const insertOrderItemSchema = z.object({
   qty: z.number(),
 });
 
-// Scheme for the PayPal paymentResult
+// Schema for the PayPal paymentResult
 export const paymentResultScheme = z.object({
   id: z.string(),
   status: z.string(),
@@ -121,8 +121,14 @@ export const paymentResultScheme = z.object({
   pricePaid: z.string(),
 });
 
-// Scheme for updating the user profile
+// Schema for updating the user profile
 export const updateProfileSchema = z.object({
   name: z.string().min(3, 'Name must be at least 3characters'),
   email: z.string().min(3, 'Email must be at least 3characters'),
+});
+
+// Schema to update users
+export const updateUserSchema = updateProfileSchema.extend({
+  id: z.string().min(1, 'ID is required'),
+  role: z.string().min(1, 'Role is required'),
 });
