@@ -53,3 +53,9 @@ export const productDefaultValues = {
 export const User_Roles = process.env.USER_ROLES
   ? process.env.USER_ROLES.split(', ')
   : ['admin', 'user'];
+
+export const reviewFromDefaultValues = {
+  title: '',
+  comment: '',
+  rating: 0,
+};
