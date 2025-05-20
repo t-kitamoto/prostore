@@ -25,4 +25,4 @@ https://prostore-kappa-six.vercel.app/
 - Uploadthing (画像アップロード)
 
 ## 元教材
-Next.js E-Commerce（Udemy by Traversy Media　https://www.udemy.com/course/nextjs-ecommerce-course
+Next.js Ecommerce 2025 - Shopping Platform From Scratch - Udemy by Traversy Media　https://www.udemy.com/course/nextjs-ecommerce-course
