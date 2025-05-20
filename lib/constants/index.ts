@@ -1,4 +1,4 @@
-export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || 'Prostore';
+export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || 'DemoStore';
 export const APP_DECRIPTION =
   process.env.NEXT_PUBLIC_APP_DECRIPTION ||
   'A modern ecommerce store built with Next.js';
