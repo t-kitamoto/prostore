@@ -41,7 +41,7 @@ const ProductCarousel = ({ data }: { data: Product[] }) => {
                   className="w-full h-auto"
                 ></Image>
                 <div className="absolute inset-0 flex items-end justify-start">
-                  <h2 className="bg-gray-900 bg-opacity-50 text-base font-bold px-4 py-2 text-white text-left">
+                  <h2 className="bg-gray-900 bg-opacity-50 text-sm sm:text-base font-bold px-4 py-2 text-white text-left">
                     {product.name}
                   </h2>
                 </div>
