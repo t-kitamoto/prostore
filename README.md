@@ -1,6 +1,6 @@
 # DemoStore（Next.js ECサイトポートフォリオ）
 
-このアプリは、Udemy講座「Next.js 14 E-Commerce」をベースに構築したECサイトです。  
+このアプリは、Udemy講座「Next.js Ecommerce 2025」をベースに構築したECサイトです。  
 ポートフォリオとして活用するにあたり、主に以下のような微調整を行っています。
 
 - サイト名（ProStore → DemoStore）変更
@@ -13,7 +13,7 @@
 https://prostore-kappa-six.vercel.app/
 
 ## 使用技術
-- Next.js 14 (App Router)
+- Next.js 15 (App Router)
 - TypeScript
 - Tailwind CSS
 - shadcn/ui
