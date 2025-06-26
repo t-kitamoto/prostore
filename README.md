@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DemoStore（Next.js ECサイトポートフォリオ）
 
-## Getting Started
+このアプリは、Udemy講座「Next.js Ecommerce 2025」をベースに構築したECサイトです。  
+ポートフォリオとして活用するにあたり、主に以下のような微調整を行っています。
 
-First, run the development server:
+- サイト名（ProStore → DemoStore）変更
+- 一部UIの修正
+- デプロイ用の設定および表示最適化
+  
+レポジトリ名は元教材に準じて「ProStore」のままですが、サイト上では「DemoStore」として公開しています。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## デプロイURL
+https://prostore-kappa-six.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 使用技術
+- Next.js 15 (App Router)
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Prisma + PostgreSQL (Neon)
+- Zod
+- Auth.js
+- PayPal
+- Stripe
+- Uploadthing (画像アップロード)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 元教材
+Next.js Ecommerce 2025 - Shopping Platform From Scratch - Udemy by Traversy Media　https://www.udemy.com/course/nextjs-ecommerce-course
