@@ -24,5 +24,7 @@ https://prostore-kappa-six.vercel.app/
 - Stripe
 - Uploadthing (画像アップロード)
 
+![サンプルイメージ](https://github.com/t-kitamoto/prostore/blob/main/public/images/sample.png)
+
 ## 元教材
 Next.js Ecommerce 2025 - Shopping Platform From Scratch - Udemy by Traversy Media　https://www.udemy.com/course/nextjs-ecommerce-course
