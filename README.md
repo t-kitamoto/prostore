@@ -24,6 +24,7 @@ https://prostore-kappa-six.vercel.app/
 - Stripe
 - Uploadthing (画像アップロード)
 
+## イメージ
 <div align="center">
   <img src="https://github.com/t-kitamoto/prostore/blob/main/public/images/sample.png" alt="サンプルイメージ]" width="600" />
 </div>
