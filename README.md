@@ -25,7 +25,9 @@ https://prostore-kappa-six.vercel.app/
 - Uploadthing (画像アップロード)
 
 ---
+
 ![サンプルイメージ](https://github.com/t-kitamoto/prostore/blob/main/public/images/sample.png)
+
 ---
 
 ## 元教材
