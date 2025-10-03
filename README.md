@@ -22,7 +22,7 @@ https://prostore-kappa-six.vercel.app/
 - Auth.js　OAuthや認証機能の実装を簡潔に管理
 - PayPal　オンライン決済の導入 
 - Stripe　カード決済の実装  
-- Uploadthing 画像アップロード機能
+- Uploadthing　画像アップロード機能
 
 ---
 
