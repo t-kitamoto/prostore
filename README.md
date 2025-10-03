@@ -16,13 +16,13 @@ https://prostore-kappa-six.vercel.app/
 - Next.js 15 (App Router)
 - TypeScript
 - Tailwind CSS
-- shadcn/ui
-- Prisma + PostgreSQL (Neon)
-- Zod
-- Auth.js
-- PayPal
-- Stripe
-- Uploadthing (画像アップロード)
+- shadcn/ui　Radix UIベースの再利用可能なコンポーネントライブラリ 
+- Prisma + PostgreSQL (Neon) 　型安全なORMとクラウドDBを用いたデータ管理 
+- Zod　スキーマ定義による型安全なバリデーション
+- Auth.js　OAuthや認証機能の実装を簡潔に管理
+- PayPal　オンライン決済の導入 
+- Stripe　カード決済の実装  
+- Uploadthing 画像アップロード機能
 
 ---
 
